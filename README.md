@@ -1,25 +1,34 @@
-This system has 2 users.
-The User and Admin.
+This system has 1 users.
+The User, Admin, Super Admin and the Staff.
 
 Once the system detect the user type of your account entered to the form, it will redirect to the page based on your role.
-To access the admin panel, you need to login. And if you want to add a new admin, you can create an account and request to Mr. Deo Villavicencio to change the usertype from USER to ADMIN.
+To access the admin panel, you need to login. And if you want to add a new admin, you can create an account and request to whoever the super admin is, to change the usertype from USER to ADMIN.
 
-File structure:
+##User Roles
+#User - Users are the ones who can register and login to the system. They can make a training requests.
 
-Assets folder - This folder is the storage of all the resources that are used in the system such as images, fonts, files, css files, javascript file and etc..
+#Admin - Admins are the ones who can add new trainings, and can also add new training requests.
 
-Components folder - This folder contains all the components that are used in the system such as header, footer, navbar, alertmessage, logout, and sidebar.
+#Super Admin - Super Admin are the ones who can add new users, set their roles, add, edit and delete the trainings and training requests/
 
-Controller folder - This folder contains all files that processes the request of users. Controllers can group related request handling logic into a single class before it pass to the Model Folder.
+#Staff - The only role of the staff is to approve the training requests and add trainings. 
 
-Database folder - This folder contains the copy of database.
+##File structure:
 
-Helpers folder - This folder contains all the helpers that are used in the system such as checker.php. This page is responsible for checking the email and username that the user register.
+#Assets folder - This folder is the storage of all the resources that are used in the system such as images, fonts, files, css files, javascript file and etc..
 
-Http folder - This folder contains all the files that are responsible for sending an email.
+#Components folder - This folder contains all the components that are used in the system such as header, footer, navbar, alertmessage, logout, and sidebar.
 
-Models folder - This folder contains all the files that are responsible for the database connection and queries.
+#Controller folder - This folder contains all files that processes the request of users. Controllers can group related request handling logic into a single class before it pass to the Model Folder.
 
-Vendor folder - This folder contains all the libraries that are used in the system such as needim and PHPMailer (For sending emails).
+#Database folder - This folder contains the copy of database.
 
-Views folder - This folder contains all the files that are responsible for the user interface.
+#Helpers folder - This folder contains all the helpers that are used in the system such as checker.php. This page is responsible for checking the email and username that the user register.
+
+#Http folder - This folder contains all the files that are responsible for sending an email.
+
+#Models folder - This folder contains all the files that are responsible for the database connection and queries.
+
+#Vendor folder - This folder contains all the libraries that are used in the system such as needim and PHPMailer (For sending emails).
+
+#Views folder - This folder contains all the files that are responsible for the user interface.
