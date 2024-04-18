@@ -1,7 +1,7 @@
 This system has 4 users:
 The User, Admin, Super Admin and the Staff.
 
-Once the system detect the user type of your account entered to the form, it will redirect to the page based on your role.
+Once the system detected the account's user type, it will redirect to the page based on your role.
 To access the admin panel, you need to login. And if you want to add a new admin, you can create an account and request to whoever the super admin is, to change the usertype from USER to ADMIN.
 
 # User Roles
