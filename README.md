@@ -1,4 +1,4 @@
-This system has 1 users.
+This system has 4 users.
 The User, Admin, Super Admin and the Staff.
 
 Once the system detect the user type of your account entered to the form, it will redirect to the page based on your role.
